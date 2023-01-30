@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mí CV</title>
+    
+<!-- CSS -->
+    <link rel="stylesheet" href="CSS/estilos.css"> 
+<!--Iconos-->
+    <link rel="icon" type="image/x-icon" href="Imagen/filepic.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="container">
+<div class="sidebar" id="sidebar"> 
+    <div class="pic">
+        <img class="pic" src="Imagen/user.png" alt="Foto" width="300" height="350"> 
+        <div class="botones">
+            <i class="fa-solid fa-sun" id="sun"></i>
+            <button class="dark-light" id="dark-light"></button>
+            <i class="fa-solid fa-moon" id="moon"></i>
+        </div>
+    </div>
+    <div class="education">
+        <h3>Formación</h3>
+        <ul>
+            <li>Licenciatura en Ciencias de la Computacion <br>
+            UNC-Facultad de Astronomía, Matemática, Física y Computación.</li>
+        </ul>
+    </div>
+    <div class="languages">
+        <h3>Idiomas</h3>
+        <ul>
+            <li>Español (Nativo)</li>
+            <li>Inglés (B2)</li>
+            <li>Frances (A2)</li>
+        </ul>
+    </div>
+</div>
+<div class="main" id="main">
+
+    <h1 class="title"> 
+        Bruno D'Ambrosio
+    </h1>
+
+    <div class="main_content">
+
+        <h3> 
+            SOBRE MÍ:
+        </h3>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+            Ipsum ut suscipit cumque delectus cupiditate fuga. <br>
+        </p>
+
+        <h3> 
+            HABILIDADES: 
+
+        </h3>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+
+
+        <h3>
+            EXPERIENCIA:
+        </h3>
+
+        <ul>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+        </ul>
+
+        <h3>
+            REFERENCIAS:
+        </h3>
+
+        <ul style="list-style: none;">
+            <li> Juan Pérez - Desarrollador de Software <br>
+                <li>
+                <span class="icono"><i class="fa-solid fa-envelope"></i></span> 
+                <span class="texto"> mail@mail.com</span> 
+                </li>
+                 
+                <li>
+                <span class="icono"><i class="fa-solid fa-phone"></i></span>
+                <span class="texto"> +54 1234 567890</span>
+                </li>
+            </li>
+        </ul>
+
+    </div>
+</div>
+
+
+<div class="footer" id="footer">
+<div class="footer_content">
+    <div class="contact_section">   
+        <h3>Contacto:</h3>
+            <ul style="list-style: none;">
+                <li class="mail">
+                <span class="icono"><i class="fa-solid fa-envelope"></i></span> 
+                <span class="texto"> brunodam665@gmail.com </span>
+                </li>
+                <li class="add">
+                <span class="icono"><i class="fa-solid fa-location-dot"></i></span> 
+                <span class="texto"> Balcarce 502, Córdoba </span> 
+                </li>
+                <li>
+                <span class="icono"><i class="fa-solid fa-phone"></i></span> 
+                <span class="texto"> +54 2954-714475 </span> 
+                </li>
+            </ul>
+    </div>
+
+    <div class="contact_form">
+        <h3>
+            Ponte en contacto:
+        </h3>
+        <form>
+            <input type ="email" name="mail" class="mail" maxlength="30" 
+            placeholder="Tú dirección de email" required >
+            <br/>                
+            <textarea class="msg" name="msg" maxlength="400" placeholder="Tú mensaje" required></textarea>
+            <input class="button" type ="submit" value="Enviar" id="submit">
+
+        </form>
+    </div>
+</div>
+</div>
+<script src="js/scripts.js"></script>
+</body>
+</html>
